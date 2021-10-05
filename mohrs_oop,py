@@ -1,9 +1,3 @@
-'''
-Created on Oct 5, 2021
- 
-@author: rahulrajsbkk
-'''
- 
 import numpy as np;
 import matplotlib.pyplot as plt;
  
