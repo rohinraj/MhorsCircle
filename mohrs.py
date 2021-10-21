@@ -6,6 +6,9 @@ def mohcircle():
     σx = float(input('σx = '))
     σy = float(input('σy = '))
     τxy = float(input('τxy = '))
+    
+    print("Enter details: ")
+    
     u = input('stress unit = ')
     w = float(input("Angle( in degrees) of plane's axis from x axis(+ve counter clockwise), θ = "))
     θ = math.radians(w)
@@ -45,6 +48,8 @@ def mohcircle():
 
        ''')
 
+    print("Plot is showing now...")
+    
     plt.plot(x, y)
     plt.plot([σavg - R - 10, σavg + R + 10], [0, 0], linestyle='--', color='black')
     plt.plot([σavg, σavg], [-R - 10, R + 10], linestyle='--', color='black')
